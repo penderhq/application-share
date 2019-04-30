@@ -46,25 +46,25 @@ export default fromJS({
             id: 'usr1',
             imageUrl: 'http://i.pravatar.cc/300?v=1',
             displayName: 'Luke Skywalker',
-            email: 'luke@mothership.io'
+            email: 'luke@pender.io'
         },
         'usr2': {
             id: 'usr2',
             imageUrl: 'http://i.pravatar.cc/300?v=2',
             displayName: 'Leia Organa',
-            email: 'leia@mothership.io'
+            email: 'leia@pender.io'
         },
         'usr3': {
             id: 'usr3',
             imageUrl: 'http://i.pravatar.cc/300?v=3',
             displayName: 'R2-D2',
-            email: 'r2d2@mothership.io'
+            email: 'r2d2@pender.io'
         },
         'usr4': {
             id: 'usr3',
             imageUrl: 'http://i.pravatar.cc/300?v=4',
             displayName: 'Darth Vader',
-            email: 'darth@mothership.io'
+            email: 'darth@pender.io'
         }
     },
     users: [],
