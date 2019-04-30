@@ -368,7 +368,7 @@ class Example extends React.Component {
                             <div
                                 key={id}
                                 className={css`
-                                margin-bottom: 16px;
+                                margin-bottom: 24px;
                             `}
                             >
                                 <InvitationItem
