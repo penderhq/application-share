@@ -1,5 +1,5 @@
 {
-  "name": "@cmds/application-share",
+  "name": "@pndr/application-share",
   "version": "0.1.0",
   "description": "Used for managing invites and collaborators",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
     "umd"
   ],
   "scripts": {
-    "deploy": "cd demo/dist && surge --project ./ --domain cmds-application-share.surge.sh",
+    "deploy": "cd demo/dist && surge --project ./ --domain pndr-application-share.surge.sh",
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
@@ -25,12 +25,6 @@
     "react": "16.x"
   },
   "devDependencies": {
-    "@cmds/button": "^0.2.0",
-    "@cmds/demo-utils": "^0.3.0",
-    "@cmds/icons": "^0.4.0",
-    "@cmds/select": "^0.7.0",
-    "@cmds/spinner": "^0.1.0",
-    "@cmds/text-input": "^0.2.0",
     "emotion": "^10.0.9",
     "immutable": "^4.0.0-rc.12",
     "nwb": "0.23.x",
