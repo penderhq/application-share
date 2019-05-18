@@ -50,7 +50,7 @@ export default class InvitationItem extends React.Component {
                         alignLeft={true}
                         options={this.props.roles}
                         disabled={this.props.updateRoleDisabled}
-                        onChange={this.props.onRoleIdChange}
+                        onChange={({value}) => this.props.onRoleIdChange({id, value})}
                     />
                 </div>
                 <div>
@@ -60,7 +60,7 @@ export default class InvitationItem extends React.Component {
                         className={css`
                             height: 38px;
                         `}
-                        onClick={this.handleRemove}
+                        onClick={() => this.props.onRemove({id})}
                     >
                         {this.props.removing ? 'Removing...' : 'Remove'}
                     </Button>

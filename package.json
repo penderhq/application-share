@@ -1,6 +1,6 @@
 {
   "name": "@pndr/application-share",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Used for managing invites and collaborators",
   "main": "lib/index.js",
   "module": "es/index.js",

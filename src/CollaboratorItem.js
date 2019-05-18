@@ -10,6 +10,7 @@ import spinner from '@pndr/spinner'
 export default class CollaboratorItem extends React.Component {
 
     static propTypes = {
+        id: PropTypes.string.isRequired,
         imageUrl: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
@@ -35,6 +36,8 @@ export default class CollaboratorItem extends React.Component {
 
 
     render() {
+
+        const {id} = this.props
 
         return (
             <ShareItem
@@ -65,7 +68,7 @@ export default class CollaboratorItem extends React.Component {
                         alignLeft={true}
                         options={this.props.roles}
                         disabled={this.props.updateRoleDisabled}
-                        onChange={this.props.onRoleIdChange}
+                        onChange={({value}) => this.props.onRoleIdChange({id, value})}
                     />
                 </div>
                 <div>
@@ -75,7 +78,7 @@ export default class CollaboratorItem extends React.Component {
                         className={css`
                             height: 38px;
                         `}
-                        onClick={this.props.onRemove}
+                        onClick={() => this.props.onRemove({id})}
                     >
                         {this.props.removing ? 'Removing...' : 'Remove'}
                     </Button>
