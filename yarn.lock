@@ -25,56 +25,6 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@cmds/button@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@cmds/button/-/button-0.2.0.tgz#625233b7ae458d8858eba7026b1cc6362e7ff405"
-  integrity sha512-6dHbrOXjMylCEjybIwheEI6T/fh/zBkQ9cmDEDNmMJwE3bmat3cAAOoP0s5og+4a2n9EMNkOiyqk+Tu0kiq8Uw==
-  dependencies:
-    "@cmds/demo-utils" "^0.2.0"
-
-"@cmds/demo-utils@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@cmds/demo-utils/-/demo-utils-0.2.0.tgz#5996f816f1be9c40dc132885e42e3effe3c9f592"
-  integrity sha512-7O6ynbF0WeKacz011meF8A6z4EXDOwSWn1sR6RiWQ2ZqdnjqwdM2iumlQckZHA3SYzlb7Z6+N66KLBdXnYn7Qg==
-  dependencies:
-    emotion "^10.0.9"
-
-"@cmds/demo-utils@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@cmds/demo-utils/-/demo-utils-0.3.0.tgz#29c02fd90dd03dc1cbbdd9ba80120d72c66c849a"
-  integrity sha512-6hGQKH6XTHrc9TAGxzB/zEvZ98TzVH3Aq8mE2K1GL1EaYhQFWLoH9vqSPiL/KiOYyeG4WEvHmsLtiIuYeTgt/w==
-  dependencies:
-    emotion "^10.0.9"
-
-"@cmds/icons@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@cmds/icons/-/icons-0.1.0.tgz#95b84e801fb447d817b6a23b7fbf4e37fc6a05ed"
-  integrity sha512-tt8Zff3gLDRqx/edszzsHukyHfaul7s/TADrRTp5hpJnaRgWAkUaUO42gxTlgQ8/StK5xopHQ+qUGz6fQmfx4w==
-
-"@cmds/icons@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@cmds/icons/-/icons-0.4.0.tgz#67df31d5d4ed4c40f9362629ccf5a06fe4a7f9c2"
-  integrity sha512-fox8kvYlNQsyCe0JHG2h+1Mkb/vojKIYw2dLcLdFeZnxl0cIz0KOzibBXxejmQdYDCDajngyogphdHcn+mz8Uw==
-
-"@cmds/select@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@cmds/select/-/select-0.7.0.tgz#d77a3f14c9b9077117bd86932d13abdf9999f3e4"
-  integrity sha512-mQRJlFAyKHXK0XG/xdqf7Tm5BwQufzXc6LahVHvgT4sMO/3ClE00Bjm9UxKo0Gi7fSTyg6y4hQJ5FrnL6SDwxA==
-  dependencies:
-    "@cmds/icons" "^0.1.0"
-    prop-types "^15.6.2"
-    react-click-outside "github:tj/react-click-outside"
-
-"@cmds/spinner@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@cmds/spinner/-/spinner-0.1.0.tgz#001e57c0b15691cb33cf2e6b21d6760bd03ed93e"
-  integrity sha512-nRk4CpPol7TITw2u5jwmsfGCubMX6NEKJ3ropWVNoMVJqnQ81DJGamvoiuJa8oS78xqzrEt0/CGq6qT8jJGryg==
-
-"@cmds/text-input@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@cmds/text-input/-/text-input-0.2.0.tgz#0123412af4e2df197cb5c4e73438dd58d52d0260"
-  integrity sha512-NZaZUfunG6Y26cKEt+36D8c5BkJun6kUAqihjeRND1Yzo3tOrnF1nNsdaQYyxwi0itA/0tAeZBi/Jdc0WcGy3w==
-
 "@emotion/cache@^10.0.9":
   version "10.0.9"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.9.tgz#e0c7b7a289f7530edcfad4dcf3858bd2e5700a6f"
@@ -140,6 +90,41 @@
     json5 "^0.5.1"
     memory-fs "^0.4.1"
     resolve "^1.2.0"
+
+"@pndr/button@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@pndr/button/-/button-0.5.0.tgz#5ae122751aaf86b5f4136dc33cc203adce3843f0"
+  integrity sha512-hM0eXRhDPOZOxI5fnqliYnKP4tJuUDBjQByO6BBfB/w9QQjLVuyX4+g8iWXipMe/CYEH27SRP4g+wKEIrmRQ4A==
+
+"@pndr/demo-utils@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@pndr/demo-utils/-/demo-utils-0.3.0.tgz#28a8b1da7d52a2e3ebdc0da4964728309a655281"
+  integrity sha512-XxHOXkbq+CRqWPxOeYydDdiX1Xt20LLxEefWolUFmH8eCplrG4WG6dXoTp14WkhrIcxbMoxxpKxmCJp8DjOMWQ==
+  dependencies:
+    emotion "^10.0.9"
+
+"@pndr/icons@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@pndr/icons/-/icons-0.5.0.tgz#9373ef644ad3de4d5a6f8cc9a103b2ac1ef8edc1"
+  integrity sha512-xCBrsjcOqM/K0VNifz3gcQ42IYUicAVL86u5FaF8AE/T/iXLZfl4/ai/62viWlKb56d2BDEc41Al62XkWVVfSQ==
+
+"@pndr/select@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@pndr/select/-/select-0.8.0.tgz#ab022e7a73fc49f3c4cff4138e321b65d57fbc41"
+  integrity sha512-uY66icRgqF9CiHzdu+l5pAX1YAbZo0BjEz5ZMYwMLOqgtqJ2+jze/G4n+9UYRpDkbQU2M79PjZBId8cQueIxVQ==
+  dependencies:
+    prop-types "^15.7.2"
+    react-click-outside "github:tj/react-click-outside"
+
+"@pndr/spinner@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@pndr/spinner/-/spinner-0.2.0.tgz#f4d0885d1828356e54ccd20eef7079bc006f54f7"
+  integrity sha512-pFHZLJHJ0+zQQ93lfuEeJJblJUewJzjFzAxwV8h7al9MS6iL29nZGSaVpJ3cbS+6qW7WMwFOi4aAIE/VkxY9yQ==
+
+"@pndr/text-input@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@pndr/text-input/-/text-input-0.4.0.tgz#2d4ac820d111139b0745c9ce30a75329026eefdf"
+  integrity sha512-Wj2S2HMeKJ5MO8lPokQWP4SrjqI5Fle4+o84mrjQTwJPPHMumI1Fbv9b9b6/FXROKoLqF1v0c6I0AypbsMZ8lw==
 
 "@types/node@^8.0.7":
   version "8.10.48"

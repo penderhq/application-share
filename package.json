@@ -25,9 +25,16 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "@pndr/button": "^0.5.0",
+    "@pndr/demo-utils": "^0.3.0",
+    "@pndr/icons": "^0.5.0",
+    "@pndr/select": "0.8.0",
+    "@pndr/spinner": "^0.2.0",
+    "@pndr/text-input": "0.4.0",
     "emotion": "^10.0.9",
     "immutable": "^4.0.0-rc.12",
     "nwb": "0.23.x",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
