@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {css} from 'emotion'
+import { css } from 'emotion'
 import ShareItem from './ShareItem'
 import Select from '@pndr/select'
 import Button from '@pndr/button'
@@ -10,6 +10,7 @@ import spinner from '@pndr/spinner'
 export default class InvitationItem extends React.Component {
 
     static propTypes = {
+        id: PropTypes.string.isRequired,
         imageUrl: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
@@ -33,6 +34,8 @@ export default class InvitationItem extends React.Component {
 
     render() {
 
+        const { id } = this.props
+
         return (
             <ShareItem
                 imageUrl={this.props.imageUrl}
@@ -50,7 +53,7 @@ export default class InvitationItem extends React.Component {
                         alignLeft={true}
                         options={this.props.roles}
                         disabled={this.props.updateRoleDisabled}
-                        onChange={({value}) => this.props.onRoleIdChange({id, value})}
+                        onChange={({ value }) => this.props.onRoleIdChange({ id, value })}
                     />
                 </div>
                 <div>
@@ -60,7 +63,7 @@ export default class InvitationItem extends React.Component {
                         className={css`
                             height: 38px;
                         `}
-                        onClick={() => this.props.onRemove({id})}
+                        onClick={() => this.props.onRemove({ id })}
                     >
                         {this.props.removing ? 'Removing...' : 'Remove'}
                     </Button>

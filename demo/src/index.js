@@ -90,7 +90,7 @@ class Example extends React.Component {
                         roles={roles}
                         email={this.state.email}
                         roleId={this.state.roleId}
-                        error={this.props.error}Î
+                        error={this.props.error} Î
                         onEmailChange={({ value }) => this.setState({ email: value })}
                         onRoleIdChange={({ value }) => this.setState({ roleId: value })}
                         onSubmit={this.handleSubmit}
@@ -153,20 +153,20 @@ class Example extends React.Component {
         )
     }
 
-    handleInvitationRoleIdChange = () => {
-
+    handleInvitationRoleIdChange = ({ id, value }) => {
+        console.log('invitation role id change', { id, value })
     }
 
-    handleCollaboratorRoleIdChange = () => {
-
+    handleCollaboratorRoleIdChange = ({ id, value }) => {
+        console.log('collaborator role id change', { id, value })
     }
 
-    handleInvitationRemove = () => {
-
+    handleInvitationRemove = ({ id }) => {
+        console.log('invitation remove', { id })
     }
 
-    handleCollaboratorRemove = () => {
-
+    handleCollaboratorRemove = ({ id }) => {
+        console.log('collaborator remove', { id })
     }
 
     handleSubmit = async (e) => {
@@ -211,8 +211,8 @@ class Demo extends React.Component {
                     <Paragraph>
                         User has been invited, request pendign
                     </Paragraph>
-                    <Example 
-                        applicationId={'app1'} 
+                    <Example
+                        applicationId={'app1'}
                         sending={true}
                     />
                     <Heading>
