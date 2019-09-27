@@ -42,7 +42,7 @@ export default class ShareItem extends React.Component {
                                     bottom: 0;
                                     left: 0;
                                     right: 0;
-                                    background-image: url(${this.props.imageUrl});
+                                    background-image: url('${this.props.imageUrl}');
                                     background-size: cover;
                                     background-repeat: no-repeat;
                                 `}
